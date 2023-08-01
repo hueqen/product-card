@@ -1,0 +1,88 @@
+ @font-face { font-family: Fraunces; src: url('fonts/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf'); }
+ @font-face { font-family: Montserrat; src: url('fonts/Montserrat-VariableFont_wght.ttf'); }
+html, body{
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	font-family: Montserrat;
+}
+p{
+	font-size: 14px;
+}
+.container{
+	height: 100%;
+	width: 100%;
+	background-image: url('images/background.png');
+	background-size:cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.product-container{
+	width: 1400px;
+	height: 800px;
+	background-color: hsl(30, 38%, 92%);
+	box-shadow: -46px 39px 18px -30px rgba(204,204,204,1),
+46px 39px 18px -30px rgba(204,204,204,1);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.product-card{
+	display: flex;
+	border-radius: 15px;
+	width: 650px;
+	height: 450px;
+	overflow: hidden;
+	justify-content: center;
+	align-content: center;
+}
+.product-card > div {
+	width: 50%;
+}
+#image{
+	float: left;
+}
+#pic{
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+#text{
+	height: 100%;
+	background-color: white;
+	box-sizing:border-box;
+	padding: 35px;
+}
+#perfume{
+	letter-spacing: 4px;
+}
+#heading{
+	font-family: Fraunces;
+	font-weight: 700;
+	font-size: 25px;
+}
+#sale-price{
+	color: hsl(158, 36%, 37%);
+	font-family: Fraunces;
+	font-size: 25px;
+	font-weight: 700;
+}
+#old-price{
+	font-family: Fraunces;
+	text-decoration:line-through;
+}
+button{
+	text-align: center;
+	color: white;
+	background-color: hsl(158, 36%, 37%);
+	border-style: none;
+	border-radius: 5px;
+	width: 80%;
+	height: 40px;
+}
+.prices{
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
